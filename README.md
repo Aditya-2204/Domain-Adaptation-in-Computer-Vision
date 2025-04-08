@@ -1,1 +1,3 @@
-This research checks if Domain Adaptation is effective in Computer Vision. The Domain Adaptation method used is Deep CORAL-Correlation Alignment, which aligns data distributions over different domains.
+** Domain Adaptation in Computer Vision Using Coral Loss
+
+This research investigates the effectiveness of Domain Adaptation techniques in the field of Computer Vision. Specifically, it evaluates the performance of Deep CORAL (Correlation Alignment), a method designed to minimize domain shift by aligning the second-order statistics (covariances) of feature representations across different domains.
