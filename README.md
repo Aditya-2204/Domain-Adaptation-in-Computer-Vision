@@ -1,0 +1,1 @@
+This research checks if Domain Adaptation is effective in COmputer Vision. The Domain Adaptation method used is Deep CORAL-Correlation Alignment, which aligns data distributions over different domains.
