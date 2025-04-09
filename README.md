@@ -7,6 +7,4 @@ This research investigates the effectiveness of Domain Adaptation techniques in 
 
 The CORAL CNN builds off of the ResNet-18 model, implementing CORAL Loss as a loss function. The loss function measures the distance between two second-order statistics (covariances) in a multi-dimensional plane. These two covariance matrices are called source and target, where the model aims to minimize this distance by tuning the model to extract the features equivalent to the target.
 
-The CORAL function is as follows:
-
-![CORAL Loss](https://latex.codecogs.com/png.image?\dpi{120}L_{CORAL}=\frac{1}{4d^2}\left\|C_S-C_T\right\|_F^2)
+[Here](https://drive.google.com/file/d/16Gz5mhpFM9PfxREZWrYSjC4fnOsGTwbf/view?usp=sharing) is the full research paper on Domain Adaptation for Computer Vision
