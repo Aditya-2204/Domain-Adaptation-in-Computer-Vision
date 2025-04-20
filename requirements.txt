@@ -1,7 +1,10 @@
-scipy
+torch
+torchvision
+efficientnet_pytorch
 numpy
+pandas
+scipy
 scikit-learn
 matplotlib
-tensorflow
-pytorch
-torchvision
+tqdm
+pillow

@@ -10,14 +10,16 @@ Original research paper by Sun & Saenko found [here](https://arxiv.org/pdf/1607.
 
 In the real-life environment, models trained on one type of data (source domain) often perform poorly when used on different but related data (target domain) due to differences in data distribution, known as domain shift. This leads to poor classification
 
+# Understanding of Domain Adaption
+
+Domain Adaptation is a subfield of transfer learning that focuses on addressing the distributional discrepancy between a source domain (where labeled data is available) and a target domain (where labels are limited or unavailable). Traditional machine learning models assume that training and testing data are drawn from the same distribution. However, in real-world scenarios, this assumption often fails—especially when models are deployed in environments that differ from the training data. This leads to a performance drop due to the shift in data distributions, known as domain shift.
+
+Domain adaptation techniques aim to mitigate this problem by aligning feature representations or distributions between the source and target domains. This enables models trained on the source domain to generalize well to the target domain.
+
 # Why Domain Adaptation
 Domain adaptation is important for computer vision because real-world applications often face a domain shift—a difference between the data a model was trained on and the data it encounters in practice. Domain Adaptation, specifically CORAL, prepares models for real-world usage by fixing the problem of domain shift. Domain Adaptation helps models generalize better over images in varying environments.
 
 In the growing world of autonomous vehicles and medical imaging, In critical fields such as autonomous driving and medical imaging, even slight domain shifts—like changes in lighting, sensor type, or environmental conditions can lead to significant performance issues in computer vision systems, which can result in dangerous or life-threatening outcomes. An autonomous vehicle trained under sunny conditions may misinterpret objects when driving at night or in fog, while a diagnostic model trained on data from one hospital may fail to detect abnormalities when applied to images from a different clinic using different equipment. Domain adaptation addresses these issues by allowing models to adjust to new data distributions without requiring extensive manual labeling in the target domain.
-
-# Understanding of Domain Adaption
-
-
 
 ## How this model works:
 
@@ -28,3 +30,7 @@ Full research paper found [here](https://drive.google.com/file/d/16Gz5mhpFM9PfxR
 # How to run
 ## Note: The code used for research is computationally intensive. It is recommended to use Google Colab.
 
+The ```pip install``` commands are already on the notebook, however, for running locally:
+```pip install -r requirements.txt```
+
+Any Questions: william1binki@gmail.com
