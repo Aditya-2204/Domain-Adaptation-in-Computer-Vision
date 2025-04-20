@@ -3,7 +3,7 @@ from torchvision import transforms
 from PIL import Image
 
 # Paths
-MODEL_PATH = "Control EfficientNet Model.pt"
+MODEL_PATH = "Models/Control EfficientNet Model.pt"
 IMAGE_PATH = "sample.jpg"
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
