@@ -31,6 +31,7 @@ Full research paper found [here](https://drive.google.com/file/d/16Gz5mhpFM9PfxR
 ## Note: The code used for research is computationally intensive. It is recommended to use Google Colab.
 
 The ```pip install``` commands are already on the notebook, however, for running locally:
+
 ```pip install -r requirements.txt```
 
 Any Questions: william1binki@gmail.com
