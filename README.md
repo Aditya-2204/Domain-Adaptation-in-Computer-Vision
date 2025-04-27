@@ -34,4 +34,5 @@ The ```pip install``` commands are already on the notebook, however, for running
 
 ```pip install -r requirements.txt```
 
+And press run on the notebook
 Any Questions: william1binki@gmail.com
