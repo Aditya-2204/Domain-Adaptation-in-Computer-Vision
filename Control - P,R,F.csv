@@ -1,0 +1,11 @@
+,precision,recall,f1,categories
+0,0.0,0.0,0.0,back_pack
+1,0.0,0.0,0.0,bike
+2,0.1111111111111111,0.29411764705882354,0.16129032258064516,bike_helmet
+3,0.0,0.0,0.0,bookcase
+4,0.08196721311475409,0.625,0.14492753623188406,bottle
+5,0.0,0.0,0.0,calculator
+6,0.0,0.0,0.0,desk_chair
+7,0.0,0.0,0.0,desk_lamp
+8,0.0,0.0,0.0,desktop_computer
+9,0.0,0.0,0.0,file_cabinet
